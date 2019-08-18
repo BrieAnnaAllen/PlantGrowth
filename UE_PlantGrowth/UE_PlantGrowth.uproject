@@ -1,0 +1,13 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "4.22",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "UE_PlantGrowth",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	]
+}
