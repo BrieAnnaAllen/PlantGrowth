@@ -11,10 +11,11 @@ class UE_PLANTGROWTH_API APlantPlayer : public ACharacter
 {
 	GENERATED_BODY()
 
+public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera)
 	class USpringArmComponent* SpringCamera;
 
-	UPROPERTY(VisibleAnywhere, BlueprintReadyOnly, Category = Camera)
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera)
 	class UCameraComponent* FollowCamera;
 
 public:

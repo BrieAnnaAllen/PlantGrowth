@@ -102,7 +102,7 @@ void APlantPlayer::SetupPlayerInputComponent(class UInputComponent* PlayerInputC
 	check(PlayerInputComponent);
 
 	PlayerInputComponent->BindAxis("MoveForward", this, &APlantPlayer::MoveForward);
-	PlayerInputComponent->BindAxis("MoveForward", this, &APlantPlayer::MoveRight);
+	PlayerInputComponent->BindAxis("MoveRight", this, &APlantPlayer::MoveRight);
 
 	PlayerInputComponent->BindAxis("Turn", this, &APawn::AddControllerYawInput);
 	PlayerInputComponent->BindAxis("LookUp", this, &APawn::AddControllerPitchInput);
